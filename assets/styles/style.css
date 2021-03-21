@@ -1,0 +1,27 @@
+/*PAGE WIDE STYLES START*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*PAGE WIDE STYLES END*/
+
+/*HEADER STYLES START*/
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: brown;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .droplink {
+    background-color: aqua;
+}
