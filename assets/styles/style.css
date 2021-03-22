@@ -79,6 +79,8 @@ header nav ul li a {
 .dropdown:hover .droplink {
     background-color: var(--tertiary-color);
 }
+
+
 /*HEADER STYLES END*/
 
 /*PROFILE PAGE STYLES START*/
@@ -91,6 +93,7 @@ header nav ul li a {
 .first-row {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .profile-picture{
