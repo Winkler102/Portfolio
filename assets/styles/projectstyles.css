@@ -1,14 +1,28 @@
+.primary-project{
+    margin: 25px 0;
+}
+
+.secondary-projects {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
 /*RUN BUDDY STYLES START*/
 .run-buddy{
-    content: "";
     background-image: url(../images/hero-bg.jpg);
 }
 
-.projectbody {
-    opacity: 1.0;
-}
+.projectbody {}
 /*RUN BUDDY STYLES END*/
 /*HORISEON REFACTOR STYLES START*/
+.horiseon-refactor {
+    background-image: url(../images/digital-marketing-meeting.jpg)
+}
 /*HORISEON REFACTOR STYLES END*/
 /*FAN PAGE START*/
+.fan-page, .fan-page a {
+    background-color: skyblue;
+    color: maroon;
+}
 /*FAN PAGE STYLES END*/
