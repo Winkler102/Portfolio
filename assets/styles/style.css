@@ -18,6 +18,15 @@ body {
     --tertiary-color: #39a6b2;
     --header-words: #0004fa71; 
 }
+
+.heading2 {
+    color: var(--header-words);
+    border-bottom: 5px outset aquamarine ;
+    text-align: center;
+    font-size: 45px;
+    width: 50%;
+    margin: 10px auto;
+}
 /*PAGE WIDE STYLES END*/
 
 /*HEADER STYLES START*/
@@ -90,22 +99,17 @@ header nav ul li a {
 
 /*PROFILE PAGE STYLES START*/
 .profile {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
-    justify-content: space-between;
-}
-
-.first-row {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
-.profile-picture{
-    display: flex;
+.profile-picture {
     margin: 10px;
     height: auto;
-    width: 50%;    
+    width: 50%;  
+    flex: 1 45%;  
 }
 
 .profile-picture img {
@@ -116,14 +120,33 @@ header nav ul li a {
 .links {
     margin: 20px;
     width: 50%;
-    flex-basis: 100%;   
+    flex: 1 45%;   
     justify-content: center;
     align-items: center; 
+}
+
+.links ul {
+    font-size: 25px;
+    justify-content: center;
+    width: fit-content;
+    line-height: 1.5vw;
+}
+
+.links ul li {
+    padding-right: 20px;
+    margin: 10%;
+    line-height: 1.5vw;
 }
 
 .bio {
     flex-wrap: wrap;
     flex: 0 70%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.bio p {
+    font-size: 25px;
 }
 /*PROFILE PAGE STYLES END*/
 
