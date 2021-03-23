@@ -65,7 +65,7 @@ header nav ul li a {
     color: var(--header-words);
     padding: 10px 30px;
     font-weight: lighter;
-    font-size: 1.5vw;
+    font-size: calc(10px + 1vw);
 }
 
 .dropdown-content {

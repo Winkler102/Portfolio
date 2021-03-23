@@ -1,28 +1,107 @@
-.primary-project{
-    margin: 25px 0;
+:root {
+    --primary-color: #eee9e5;
+    --secondary-color: #83a0ee;
+    --tertiary-color: #39a6b2;
+    --header-words: #0004fa71; 
 }
 
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*HERO PROJECT STYLES START*/
+.primary-project a{
+    display: flex;
+    flex: 1 100%;
+    margin: 1% 10%;
+    padding: 4% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset var(--secondary-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    order: 1;
+}
+
+.primary-project a:hover {
+    border: 5px inset var(--secondary-color);
+    box-shadow: none;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+.description h2 {
+    flex: 1 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    border-bottom: 5px solid var(--primary-color);
+
+}
+
+.description p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*HERO PROJECT STYLES END*/
+
+/*GENERAL PROJECTS STYLES START*/
 .secondary-projects {
+    flex: 1 20%;
+    order: 2;
     display: flex;
     justify-content: space-around;
-    margin: 25px 0;
 }
+
+.secondary-projects a {
+    flex: 1 20%;
+    order: 2;
+    justify-content: space-around;
+    margin: 1% 2.5%; 
+    padding: 4% 0;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: 5%;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset var(--secondary-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.secondary-projects:hover a {
+    border: 5px inset var(--secondary-color);
+    box-shadow: none;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+/*GENERAL PROJECTS STYLES END*/
 
 /*RUN BUDDY STYLES START*/
-.run-buddy{
-    background-image: url(../images/runbuddy.jpg);
+.run-buddy a {
+    background-image: url(../images/Run-buddy.png);
 }
-
-.projectbody {}
 /*RUN BUDDY STYLES END*/
 /*HORISEON REFACTOR STYLES START*/
-.horiseon-refactor {
-    background-image: url(../images/horiseion.jpg)
+.horiseon-refactor a {
+    background-image: url(../images/horiseon-refactor.png)
 }
 /*HORISEON REFACTOR STYLES END*/
 /*FAN PAGE START*/
-.fan-page, .fan-page a {
-    background-color: skyblue;
-    color: maroon;
+.fan-page a {
+    background-image: url(../images/fan-page.png)
 }
 /*FAN PAGE STYLES END*/
