@@ -200,7 +200,7 @@ footer ul li, footer ul li a {
     header {
         position: relative;
         }
-    header, footer {
+    header {
         width: 100%;
         margin: 0;
     }
@@ -217,6 +217,10 @@ footer ul li, footer ul li a {
     }
     .bio {
         width: 100%;
+    }
+    footer {
+        width: 100%;
+        margin: 0;
     }
 }
 @media screen and (max-width: 400px) {
