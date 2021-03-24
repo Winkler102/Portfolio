@@ -105,3 +105,9 @@
     background-image: url(../images/fan-page.png)
 }
 /*FAN PAGE STYLES END*/
+
+@media screen and (max-width: 1024px) {
+    :root {
+        --header-words: rgb(8, 0, 119); 
+    }
+}

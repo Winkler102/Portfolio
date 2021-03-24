@@ -194,6 +194,9 @@ footer ul li, footer ul li a {
         justify-content: center;
         align-items: center;
     }
+    :root {
+        --header-words: rgb(8, 0, 119); 
+    }
     header {
         position: relative;
         }
