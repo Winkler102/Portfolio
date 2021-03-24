@@ -197,7 +197,7 @@ footer ul li, footer ul li a {
     :root {
         --header-words: rgb(8, 0, 119); 
     }
-    header {
+    header, footer {
         position: relative;
         }
     header nav {
