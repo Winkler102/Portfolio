@@ -78,7 +78,7 @@ header nav ul li a {
 
 .dropdown-content a {
     display: block;
-    font-size: 1vw;
+    font-size: calc(10px + 1vw);
     background-color: var(--primary-color);
 }
 
@@ -103,6 +103,7 @@ header nav ul li a {
     flex-wrap: wrap;
     width: 80%;
     justify-content: space-around;
+    margin: auto;
 }
 
 .profile-picture {
@@ -125,11 +126,19 @@ header nav ul li a {
     align-items: center; 
 }
 
+.links h2 {
+    width: 100%;
+
+}
+
 .links ul {
     font-size: 25px;
     justify-content: center;
     width: fit-content;
     line-height: 1.5vw;
+    white-space: nowrap;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .links ul li {
@@ -177,3 +186,39 @@ footer ul li, footer ul li a {
 
 
 /*FOOTER STYLES END*/
+
+/*MOBILE CHANGES START*/
+@media screen and (max-width: 1024px) {
+    body *, header * {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        position: relative;
+        }
+
+    header nav {
+        line-height: 1.5;
+    }
+    header nav ul li a {
+        font-size: calc(7px + 3vw);
+    }
+    .links ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .bio {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .links ul li {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+}
+
+/*MOBILE CHANGES END*/
