@@ -194,10 +194,13 @@ footer ul li, footer ul li a {
         justify-content: center;
         align-items: center;
     }
-    header{
+    header {
         position: relative;
         }
-
+    header, footer {
+        width: 100%;
+        margin: 0;
+    }
     header nav {
         line-height: 1.5;
     }
