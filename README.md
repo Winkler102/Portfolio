@@ -2,7 +2,7 @@
 
 ## Description 
 
-A website made to demonstrate programming skills and hold resume.
+A website made to demonstrate programming skills and to my hold resume. Website includes a profile page, a projects page, and a resume page.
 
 ### Web site link
 
