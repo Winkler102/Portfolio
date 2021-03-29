@@ -111,6 +111,12 @@
     background-image: url(../images/robot-gladiators.png)
 }
 /*ROBOT GLADIATORS STYLES END*/
+/*Password Generator START*/
+.password-generator a {
+    background-image: url(../images/passwordGenerator.png)
+}
+/*Password Generator STYLES END*/
+
 
 @media screen and (max-width: 1024px) {
     :root {
