@@ -91,6 +91,12 @@
 }
 /*GENERAL PROJECTS STYLES END*/
 
+/*movieX STYLES START*/
+.movieX a {
+    background-image: url(../images/moviex.png);
+}
+/*movieX STYLES END*/
+
 /*RUN BUDDY STYLES START*/
 .run-buddy a {
     background-image: url(../images/Run-buddy.png);
@@ -116,6 +122,12 @@
     background-image: url(../images/passwordGenerator.png)
 }
 /*Password Generator STYLES END*/
+/*Weather Dashboard START*/
+.weatherDashboard a {
+    background-image: url(../images/weatherDash.png)
+}
+/*Weather Dashboard STYLES END*/
+
 
 
 @media screen and (max-width: 1024px) {
