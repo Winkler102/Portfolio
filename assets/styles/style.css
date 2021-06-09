@@ -108,9 +108,10 @@ header nav ul li a {
 
 .profile-picture {
     margin: 10px;
+    padding-top: 12%;
     height: auto;
     width: 50%;  
-    flex: 1 45%;  
+    flex: 1 5%;  
 }
 
 .profile-picture img {
