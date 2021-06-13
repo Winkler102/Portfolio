@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #eee9e5;
-    --secondary-color: #83a0ee;
-    --tertiary-color: #39a6b2;
-    --header-words: #0004fa71; 
+    --primary-color: #ffffff;
+    --secondary-color: #0044ff;
+    --tertiary-color: #3945b2;
+    --header-words: #ffffff; 
+    --title-words: #0044ff;
 }
 
 .projects{
@@ -90,6 +91,19 @@
     flex-wrap: nowrap;
 }
 /*GENERAL PROJECTS STYLES END*/
+/*Employee manager START*/
+.employee-manager a{
+    background-image: url(../images/employeeManager.PNG);
+}
+
+/*Employee manager END*/
+
+/*Team Profile Generator START*/
+.team-profile a{
+    background-image: url(../images/teamProfile.png);
+}
+
+/*Team Profile Generator END*/
 
 /*movieX STYLES START*/
 .movieX a {
@@ -102,16 +116,6 @@
     background-image: url(../images/Run-buddy.png);
 }
 /*RUN BUDDY STYLES END*/
-/*HORISEON REFACTOR STYLES START*/
-.horiseon-refactor a {
-    background-image: url(../images/horiseon-refactor.png)
-}
-/*HORISEON REFACTOR STYLES END*/
-/*FAN PAGE START*/
-.fan-page a {
-    background-image: url(../images/fan-page.png)
-}
-/*FAN PAGE STYLES END*/
 /*ROBOT GLADIATORS START*/
 .robot-gladiators a {
     background-image: url(../images/robot-gladiators.png)

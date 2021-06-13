@@ -13,14 +13,15 @@ body {
 }
 
 :root {
-    --primary-color: #eee9e5;
-    --secondary-color: #83a0ee;
-    --tertiary-color: #39a6b2;
-    --header-words: #0004fa71; 
+    --primary-color: #ffffff;
+    --secondary-color: #0044ff;
+    --tertiary-color: #3945b2;
+    --header-words: #ffffff; 
+    --title-words: #0044ff;
 }
 
 .heading2 {
-    color: var(--header-words);
+    color: var(--title-words);
     border-bottom: 5px outset aquamarine ;
     text-align: center;
     font-size: 45px;
@@ -79,7 +80,7 @@ header nav ul li a {
 .dropdown-content a {
     display: block;
     font-size: calc(10px + 1vw);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .dropdown-content a:hover {
@@ -91,7 +92,7 @@ header nav ul li a {
 }
 
 .dropdown:hover .droplink {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
 }
 
 
@@ -163,7 +164,7 @@ header nav ul li a {
 /*FOOTER STYLES START*/
 footer * {
     background-color: var(--secondary-color);
-    color: var(--header-words);
+    color: var(--primary-color);
 }
 
 footer {
@@ -182,7 +183,7 @@ footer ul {
 }
 
 footer ul li, footer ul li a {
-    color: black;
+    color: var(--primary-color);
 }
 
 
