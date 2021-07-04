@@ -132,6 +132,12 @@
 }
 /*Weather Dashboard STYLES END*/
 
+/*PetCation START*/
+.petCation a {
+    background-image: url(../images/petStation.png)
+}
+/*PetCation STYLES END*/
+
 
 
 @media screen and (max-width: 1024px) {
